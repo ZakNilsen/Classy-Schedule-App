@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "classyScheduleApp",
+    "slug": "classyScheduleApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/ClassyLogoSquare.png",
+    "splash": {
+      "image": "./app/assets/ClassyLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage":"./app/assets/ClassyLogoSquare.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./app/assets/ClassyLogoSquare.png"
+    }
+  }
+}
